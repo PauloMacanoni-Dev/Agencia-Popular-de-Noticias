@@ -1,0 +1,43 @@
+/* CSS personalizado para Agência Popular de Notícias */
+
+/* Estilos gerais para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5def7; /* Fundo cinza claro */
+}
+
+/* Estilos da Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Estilos da seção principal */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: #555; /* Cinza escuro para melhor legibilidade */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #343a40; /* Fundo escuro para o rodapé */
+    color: #ffffff; /* Texto branco */
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.75rem; /* Título menor em dispositivos móveis */
+    }
+    .lead {
+        font-size: 1rem; /* Ajuste no tamanho do texto lead */
+    }
+}
